@@ -1,8 +1,8 @@
 Package: Bayenet
 Type: Package
 Title: Bayesian Quantile Elastic Net for Genetic Study
-Version: 0.1
-Date: 2023-05-17
+Version: 0.2
+Date: 2024-04-04
 Authors@R: c( person("Xi", "Lu", role = c("aut", "cre"),
                       email = "xilu@ksu.edu"),
               person("Cen", "Wu", role = "aut"))
@@ -13,11 +13,11 @@ Encoding: UTF-8
 LazyData: true
 LinkingTo: Rcpp, RcppArmadillo
 Imports: Rcpp, stats, MCMCpack, base, gsl, VGAM, MASS, hbmem, SuppDists
-RoxygenNote: 7.2.3
+RoxygenNote: 7.3.1
 NeedsCompilation: yes
 Repository: CRAN
-Packaged: 2023-05-23 22:04:42 UTC; grimf
+Packaged: 2024-04-05 15:21:09 UTC; xilu0
 Author: Xi Lu [aut, cre],
   Cen Wu [aut]
 Maintainer: Xi Lu <xilu@ksu.edu>
-Date/Publication: 2023-05-24 09:00:08 UTC
+Date/Publication: 2024-04-05 15:43:09 UTC

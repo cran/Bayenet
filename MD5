@@ -1,7 +1,7 @@
-101041c0788226eecbb50c2918a52437 *DESCRIPTION
+e2a4a254c24baa447521250d76362cc8 *DESCRIPTION
 4e8d8a10f44af4762caeef296b562835 *NAMESPACE
-aea21d7529cb02cb53432eb44d70400c *R/Bayenet-package.R
-4ce14bf03fe9d95bda48ef9521d62242 *R/Bayenet.R
+c540b2bf476f42528c3f0012e1fa6058 *R/Bayenet-package.R
+fe20ac6d6b51bceccbe47024f778ffca *R/Bayenet.R
 e4ffaffb10310a46d3c5014b6b53d7ac *R/DataMatrix.R
 8514eafe18a1b4c8f32b5c2c84fe8ed0 *R/Qenet.R
 ddb4358c9c635630584e9c25db9b98fc *R/Qenetss.R
@@ -18,10 +18,10 @@ ac593e5a85857535f8dbc6c8a4e23796 *R/predict.Bayenet.R
 7f68cdbb13cef11ed943c140ad26159a *R/print.Bayenet.R
 a10782374caa8174a8882168a6e4fbdd *R/quanfun.R
 64809d6ab9fda3cf57f72a47d35e9740 *R/robust.R
-f01682ffd9d5582c0d3b8a226f3c2b16 *build/partial.rdb
+b943a1546a1e17be4eea235ec7b4616b *build/partial.rdb
 4fad6d7baaca961e45ec1e2d42e8151c *data/dat.rda
-34bf37dc67df4831bdce88a99bd24e30 *man/Bayenet-package.Rd
-837302d0f9d7b9deedef49e059a081e7 *man/Bayenet.Rd
+4c9dbe5f831153e98385b6c09cf14914 *man/Bayenet-package.Rd
+d29c1c8ccf8ecee79b941ca585554a03 *man/Bayenet.Rd
 ba70aa3731d4c695484c3c32599756cc *man/Selection.Rd
 8a4cf3a44a00faa86d37efcc442a2bcb *man/dat.Rd
 8582b35f98461e0e0125c0189c753b99 *man/predict.Bayenet.Rd

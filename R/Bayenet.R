@@ -22,14 +22,14 @@ NULL
 #' \deqn{Y_{i} = \alpha_{0} + \sum_{k=1}^{q}\gamma_{k}C_{ik}+\sum_{j=1}^{p}\beta_{j}X_{ij}+\epsilon_{i},}
 #' where \eqn{\alpha_{0}} is the intercept, \eqn{\gamma_{k}}'s and \eqn{\beta_{j}}'s are the regression coefficients corresponding to effects of clinical factors and genetic variants, respectively.
 #' 
-#' When {penalty="elastic net"} (default), the elastic net penalty is adopted. If {penalty="lasso"}, the lasso penalty is used.
+#' When penalty="elastic net" (default), the elastic net penalty is adopted. If penalty="lasso", the lasso penalty is used.
 #' 
-#' When {sparse=TRUE} (default), spike--and--slab priors are imposed to identify important main and interaction effects. If {sparse=FALSE}, Laplacian shrinkage will be used.
+#' When sparse=TRUE (default), spike--and--slab priors are imposed to identify important main and interaction effects. If sparse=FALSE, Laplacian shrinkage will be used.
 #'
-#' When {robust=TRUE} (default), the distribution of \eqn{\epsilon_{i}} is defined as a Laplace distribution with density
+#' When robust=TRUE (default), the distribution of \eqn{\epsilon_{i}} is defined as a Laplace distribution with density
 #' \eqn{
 #' f(\epsilon_{i}|\nu) = \frac{\nu}{2}\exp\left\{-\nu |\epsilon_{i}|\right\}
-#' }, (\eqn{i=1,\dots,n}), which leads to a Bayesian formulation of LAD regression. If {robust=FALSE}, \eqn{\epsilon_{i}} follows a normal distribution.
+#' }, (\eqn{i=1,\dots,n}), which leads to a Bayesian formulation of LAD regression. If robust=FALSE, \eqn{\epsilon_{i}} follows a normal distribution.
 #'
 #' Both \eqn{X} and \eqn{clin} will be standardized before the generation of interaction terms to avoid the multicollinearity between main effects and interaction terms.
 #'
