@@ -20,12 +20,12 @@ robust <- function(X, Y, clin, max.steps, sparse, penalty,debugging=FALSE)
   if(sparse){
     fit=switch (penalty,
                 "lasso" = QBLSS(y,g,c,max.steps,hatb,hatEta,hatTau,hatV,hatSg2,ss2,invSigb0, hatPiEta,hatEtaSq2, theta, r,a ,b ,sh0,sh1, progress),
-                "elastic net" = Qenetss(y,g,c, theta, max.steps)
+                "elastic net" = Qenetss(y,g,c, theta=0.5, max.steps)
     )
   }else{
     fit=switch (penalty,
                 "lasso" = QBL(y,g,c,max.steps,hatb,hatEta,hatTau,hatV,hatSg2,invSigb0, hatEtaSq2, theta, r,a ,b, progress),
-                "elastic net" = Qenet(y,g,c, theta, max.steps)
+                "elastic net" = Qenet(y,g,c, theta=0.5, max.steps)
     )
   }
   

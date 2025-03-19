@@ -79,7 +79,7 @@ fit$coefficient$clin
 
 }
 \references{
-Lu, X. and Wu, C. (2023). Bayesian quantile elastic net with spike-and-slab priors.
+Lu, X. and Wu, C. (2025). Robust Bayesian elastic net with spike-and-slab priors.
 }
 \seealso{
 \code{\link{Selection}}

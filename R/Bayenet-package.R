@@ -5,10 +5,10 @@ NULL
 #' _package
 #' @keywords overview
 #' @name Bayenet-package
-#' @title   Bayesian Quantile Elastic Net for Genetic Study
+#' @title   Robust Bayesian Elastic Net 
 #' @aliases Bayenet-package
-#' @description In this package, we provide a set of robust Bayesian quantile variable selection methods for genetic analysis. A Bayesian formulation of the quantile regression has been adopted to accommodate data contamination and heavy-tailed distributions in the response. 
-#' The proposed method conducts a robust quantile variable selection by accounting for structural sparsity. In particular, the spike-and-slab priors are imposed to identify important genetic effects.
+#' @description In this package, we provide a set of robust Bayesian variable selection methods. A Bayesian formulation of the least absolute deviation regression has been adopted to accommodate data contamination and heavy-tailed distributions in the response. 
+#' The proposed method conducts a robust variable selection by accounting for structural sparsity. In particular, the spike-and-slab priors are imposed to identify important factors.
 #' In addition to the default method, users can also choose different structures (robust or non-robust) and penalty (lasso or elastic net) with or without spike-and-slab priors.
 #'
 #' @details The user friendly, integrated interface \strong{Bayenet()} allows users to flexibly choose the fitting methods they prefer. There are three arguments in Bayenet() that control the fitting method:
@@ -18,7 +18,7 @@ NULL
 #' predict.Bayenet() takes a Bayenet object and returns the predicted values for new observations.
 #'
 #' @references
-#' Lu, X. and Wu, C. (2023). Bayesian quantile elastic net with spike-and-slab priors.
+#' Lu, X. and Wu, C. (2025). Robust Bayesian elastic net with spike-and-slab priors.
 #'
 #' Lu, X., Fan, K., Ren, J., and Wu, C. (2021). Identifying Gene–Environment Interactions With Robust Marginal Bayesian Variable Selection.
 #' {\emph{Frontiers in Genetics}, 12:667074} \doi{10.3389/fgene.2021.667074}

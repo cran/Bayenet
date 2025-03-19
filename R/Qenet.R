@@ -1,4 +1,4 @@
-Qenet = function(y,x,c, theta,max.steps)
+Qenet = function(y,x,c, theta=0.5,max.steps)
 {
   n = nrow(x)
   p = ncol(x)
